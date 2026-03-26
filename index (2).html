@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>个人简介网站</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            .navbar{
+                width: 100%;
+                height:60px;
+                background-color: #ffb6c1;
+                position:fixed;
+                top:0;
+                left:0;
+                display:flex;
+                align-items:center;
+                justify-content: space-between;
+                padding:0 20px;
+                z-index:999;
+            }
+            .navbar .logo{
+                color:#FFFFFF !important;
+                font-size:20px;
+                font-weight:bold;
+            }
+            .navbar .nav-menu{
+                display:flex;
+                gap:20px;
+            }
+            .navbar .nav-menu a {
+                color:white;
+                text-decoration:none;
+                font-size:16px;
+                margin-left:20px;
+            }
+            .navbar .nav-menu a:hover{
+                color:#ff69b4;
+                text-decoration:underline;
+            }
+            body{
+                padding-top:80px;
+                font-family:"Microsoft YaHei",sans-serif;
+            }
+            #home{
+                text-align:center;
+                margin-top:30px;
+            }
+            #home img{
+                width: 200px;
+                height: 200px;
+                object-fit:cover;
+                margin-top:20px;
+            }
+			.image-row{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 20px;
+				margin: 40px 0;
+			}
+			.image-row img{
+				width: 120px;
+				height: 120px;
+				object-fit: cover;
+				border-radius: 8px;
+				border: 2px solid #ff69b4;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">NIKKI</div>
+            <div class="nav-menu">
+            <a href="self.html" >首页</a>
+            <a href="index.html"target="_blank">关于我</a>
+            <a href="js/uhu.html"target="_blank">技能</a>
+            <a href="js/damiao.html"target="_blank">联系我</a>
+            </div>
+        </div>
+        <div id="home">
+            <h1>欢迎来到我的个人网站</h1>
+            <img src="img/iuol.jpg" alt="我的照片" 
+			style="width: 200px;height: 200px;border-radius: 50%;object-fit: cover;">
+			
+			<p style="color: black;">我想 像诗意绽放的花朵 选择更璀璨的人生</p>
+			<hr />
+			<p>奇迹大陆最强搭配师 | 魔气怪制裁者 | 防水台批发商 | 天选粉毛救世主</p>
+			<div class="image-row">
+				<img src="img/ioj.png" alt="图片1"/>
+				<img src="img/syd.png" alt="图片2"/>
+				<img src="img/ffy.png" alt="图片3"/>
+				<img src="img/uyi.png" alt="图片4"/>
+			</div>
+        </div>
+        <footer class="footer">
+        	<p>&copy; 2026 NIKKI|个人简介网站</p>
+        	<p>天是冷冷的，心是暖暖的</p>
+        </footer>
+    </body>
+</html>
+<style>
+	.footer{
+		background-color: #ffb6c1;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		margin-top: 50px;
+	}
+</style>
